@@ -14,11 +14,12 @@ I enjoy building intelligent systems, exploring how data shapes decisions, and c
 
 ---
 
-### 🌱 Currently Learning
+### 🌱Experience in;
 - Frontend Development (HTML, CSS, JavaScript, React)  
-- Backend Basics (Node.js, Express)  
-- Machine Learning fundamentals with Python  
+- Backend Basics (Node.js, Express)
 
+### 🌱 Currently Learning
+- Machine Learning fundamentals with Python  
 ---
 
 ### 🤝 Looking to Collaborate On
