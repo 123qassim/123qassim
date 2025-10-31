@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm Otaha Kassim
+# 👋 Hey there, I'm Otaha
 
 💻 **Machine Learning Enthusiast | Web Developer in Training | Passionate Programmer**
 
