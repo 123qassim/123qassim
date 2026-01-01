@@ -1,43 +1,54 @@
-# 👋 Hey there, I'm Otaha
+# MUMBSO Connect
 
-💻 **Machine Learning Enthusiast | Web Developer in Training | Passionate Programmer**
+A modern, interactive platform for medical professionals to connect, attend events, access research, and utilize AI assistance.
 
-Welcome to my GitHub! I’m a technology enthusiast driven by curiosity and continuous learning.  
-I enjoy building intelligent systems, exploring how data shapes decisions, and creating modern, responsive web experiences.
+## Features
 
----
+- **User Dashboard**: Track activities and donations.
+- **Events**: Browse and register for medical conferences.
+- **Research Hub**: Access peer-reviewed medical papers.
+- **AI Assistant**: Interactive chat bot for medical queries.
+- **Payments**: Integrated M-Pesa (Daraja) STK Push for donations.
+- **Admin Panel**: Manage users and view transaction history.
 
-### 👀 Interests
-- 🤖 Machine Learning & Artificial Intelligence  
-- 💻 Software and Web Development  
-- ⚙️ Open-source collaboration and innovation  
+## Technology Stack
 
----
+- **Backend**: PHP 8+ (No frameworks, pure MVC structure)
+- **Frontend**: HTML5, Tailwind CSS (CDN), Vanilla JS
+- **Database**: MySQL
+- **Animations**: AOS.js, FontAwesome
 
-### 🌱Experience in;
-- Frontend Development (HTML, CSS, JavaScript, React)  
-- Backend Basics (Node.js, Express)
+## Installation & Setup
 
-### 🌱 Currently Learning
-- Machine Learning fundamentals with Python  
----
+1.  **Clone the repository** to your web server root.
+2.  **Database Setup**:
+    *   Create a MySQL database named `mumbso_connect`.
+    *   Import the schema from `sql/schema.sql`.
+3.  **Configuration**:
+    *   Edit `config/config.php` with your database credentials.
+    *   Update the `daraja` section with your Safaricom consumer key/secret.
+    *   Update the `openai` section with your API key (optional).
+4.  **Running Locally**:
+    *   You can use the built-in PHP server:
+        ```bash
+        cd public
+        php -S localhost:8000
+        ```
+    *   Visit `http://localhost:8000`.
 
-### 🤝 Looking to Collaborate On
-Open-source projects, web apps, and anything legal, impactful, and intellectually challenging.  
+## Production Deployment
 
----
+-   Point your web server (Apache/Nginx) document root to the `public/` folder.
+-   Ensure URL rewriting is enabled to route all requests to `index.php`.
+    -   **Nginx Example:**
+        ```nginx
+        location / {
+            try_files $uri $uri/ /index.php?$query_string;
+        }
+        ```
+    -   **Apache (.htaccess)** is not included but can be added to `public/` if needed.
 
-### 📫 Get in Touch
-- **Email:** [otahakassim03@gmail.com](mailto:otahakassim03@gmail.com) | [otahacharles@gmail.com](mailto:otahacharles@gmail.com)  
-- **Phone:** +254 746 373 477  
-- **GitHub:** [@123qassim](https://github.com/123qassim)  
+## Credits
 
----
-
-> _"Code with purpose, learn with passion, and build for impact."_ 🚀
-
-
-<!---
-123qassim/123qassim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+-   Images provided by Unsplash.
+-   Icons by FontAwesome.
