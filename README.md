@@ -30,7 +30,7 @@ Open-source projects, web apps, and anything legal, impactful, and intellectuall
 - **Email:** [otahakassim03@gmail.com](mailto:otahakassim03@gmail.com) | [otahacharles@gmail.com](mailto:otahacharles@gmail.com)  
 - **Phone:** +254 746 373 477  
 - **GitHub:** [@123qassim](https://github.com/123qassim)
-- **ResearchGate** https://www.researchgate.net/profile/Charles-Otaha 
+- **ResearchGate** [Otaha](https://www.researchgate.net/profile/Charles-Otaha) 
 
 ---
 
